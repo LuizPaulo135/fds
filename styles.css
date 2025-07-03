@@ -57,3 +57,12 @@ a {
 
 a:hover {
   color: #ff4500; /* laranja escuro ao passar o mouse*
+  <style>
+  #mensagem {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  #mensagem.mostrar {
+    opacity: 1;
+  }
+</style>
