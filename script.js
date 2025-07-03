@@ -1,2 +1,4 @@
-// Este é um script vazio por enquanto, mas pode ser usado para interações futuras
-console.log("Página carregada com sucesso!");
+function mostrarMensagem() {
+  const areaMensagem = document.getElementById("mensagem");
+  areaMensagem.textContent = "Seja bem-vindo(a)! Nunca pare de aprender. 🌟";
+}
