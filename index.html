@@ -18,7 +18,12 @@
     <!-- Botão e área da mensagem -->
 <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
  <p id="mensagem"></p>
-
+ <script>
+    function mostrarMensagem() {
+      const areaMensagem = document.getElementById("mensagem");
+      areaMensagem.textContent = "Seja bem-vindo(a)! Nunca pare de aprender. 🌟";
+    }
+  </script>
     <!-- 3. Lista não ordenada com hobbies -->
     <h2>Meus Hobbies</h2>
     <ul>
